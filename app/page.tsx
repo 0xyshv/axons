@@ -1,7 +1,6 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Zap } from "lucide-react"
+import { Zap } from "lucide-react"
 import Image from "next/image"
 
 export default function Home() {
@@ -176,9 +175,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <h2 className="text-4xl sm:text-5xl font-bold text-white text-balance">Ready to build with AXONS?</h2>
           <p className="text-lg text-white/90">Join us in creating the future of autonomous Web3 operations</p>
-          <Button size="lg" className="gap-2 bg-white hover:bg-white/90 text-[#0a847e] font-bold">
-            Start Building <ArrowRight className="w-5 h-5" />
-          </Button>
+
         </div>
       </section>
 
